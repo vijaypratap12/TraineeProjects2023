@@ -5,7 +5,6 @@
 $(document).ready(() => {
 
     $('#btn').click(function () {
-
         var input = {};
         input.n = parseInt($('#quantity').val());
         input.prompt = $('#txt').val();
