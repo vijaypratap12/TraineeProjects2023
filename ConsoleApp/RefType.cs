@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -51,8 +52,11 @@ namespace ConsoleApp
 
             //control statements
             ControlStatements control = new ControlStatements();
+            
             int result = control.ConditionOne();
+            control.SwitchCase(2);
             Console.WriteLine(result);
+
             Console.ReadLine();
         }
     }
