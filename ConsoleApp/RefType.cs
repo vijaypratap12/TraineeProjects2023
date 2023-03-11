@@ -57,6 +57,8 @@ namespace ConsoleApp
             control.SwitchCase(2);
             Console.WriteLine(result);
             Console.WriteLine("Added for github");
+            Console.WriteLine("Added for github");
+            Console.WriteLine("Added for github");
             Console.ReadLine();
         }
     }

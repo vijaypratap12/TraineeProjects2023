@@ -14,6 +14,7 @@ namespace ConsoleApp
         public void AddEmployee()
         {
             Console.WriteLine("This will add employee");
+            Console.WriteLine("This will add employee");
         }
 
     }
