@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -51,9 +52,16 @@ namespace ConsoleApp
 
             //control statements
             ControlStatements control = new ControlStatements();
+            
             int result = control.ConditionOne();
+            control.SwitchCase(2);
             Console.WriteLine(result);
             Console.WriteLine("Added for github");
+<<<<<<< HEAD
+=======
+            Console.WriteLine("Added for github");
+            Console.WriteLine("Added for github");
+>>>>>>> d98fd792fdab266b6c8e8cf7b947405e3e570cf5
             Console.ReadLine();
         }
     }
