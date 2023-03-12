@@ -53,6 +53,7 @@ namespace ConsoleApp
             ControlStatements control = new ControlStatements();
             int result = control.ConditionOne();
             Console.WriteLine(result);
+            Console.WriteLine("Added for github");
             Console.ReadLine();
         }
     }
