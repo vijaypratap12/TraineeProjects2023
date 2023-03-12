@@ -56,6 +56,9 @@ namespace ConsoleApp
             int result = control.ConditionOne();
             control.SwitchCase(2);
             Console.WriteLine(result);
+            Console.WriteLine("Added for github");
+            Console.WriteLine("Added for github");
+            Console.WriteLine("Added for github");
             Console.ReadLine();
         }
     }
