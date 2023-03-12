@@ -56,17 +56,6 @@ namespace ConsoleApp
             int result = control.ConditionOne();
             control.SwitchCase(2);
             Console.WriteLine(result);
-            Console.WriteLine("Added for github");
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-            Console.WriteLine("Added for github");
-            Console.WriteLine("Added for github");
->>>>>>> d98fd792fdab266b6c8e8cf7b947405e3e570cf5
-=======
-            Console.WriteLine("Added for github");
-            Console.WriteLine("Added for github");
->>>>>>> d98fd792fdab266b6c8e8cf7b947405e3e570cf5
             Console.ReadLine();
         }
     }
