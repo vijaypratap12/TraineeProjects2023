@@ -61,6 +61,7 @@ namespace ConsoleApp
             Console.WriteLine("Added for github");
             Console.WriteLine("Added for github");
             Console.ReadLine();
+            Console.ReadLine();
         }
     }
 }
