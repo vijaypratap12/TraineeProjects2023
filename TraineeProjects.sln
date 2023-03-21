@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "ConsoleApp\Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sachin_project", "Sachin_project\Sachin_project.csproj", "{46E61ACC-C3B7-48F9-A71D-C931B2DBDE92}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "My ASP@net_project", "My ASP@net_project\My ASP@net_project.csproj", "{B487062A-DC59-41A0-AE92-8B9BD37B0EA8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,10 +31,14 @@ Global
 		{62106B17-0DA7-4433-A124-BC926706B310}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{62106B17-0DA7-4433-A124-BC926706B310}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{62106B17-0DA7-4433-A124-BC926706B310}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0D9C0C92-55CF-4FC7-AC8A-9F00E143838F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0D9C0C92-55CF-4FC7-AC8A-9F00E143838F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0D9C0C92-55CF-4FC7-AC8A-9F00E143838F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0D9C0C92-55CF-4FC7-AC8A-9F00E143838F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46E61ACC-C3B7-48F9-A71D-C931B2DBDE92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46E61ACC-C3B7-48F9-A71D-C931B2DBDE92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46E61ACC-C3B7-48F9-A71D-C931B2DBDE92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46E61ACC-C3B7-48F9-A71D-C931B2DBDE92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B487062A-DC59-41A0-AE92-8B9BD37B0EA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B487062A-DC59-41A0-AE92-8B9BD37B0EA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B487062A-DC59-41A0-AE92-8B9BD37B0EA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B487062A-DC59-41A0-AE92-8B9BD37B0EA8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

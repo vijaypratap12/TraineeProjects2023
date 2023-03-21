@@ -15,6 +15,7 @@ namespace Sachin_project.Programs_for_practices
             
             int a=0, b=1, sum=0;
 
+            Console.Write(a+" "+b+" ");
             for (int j = 1; j <= x; j++)
             {
                 sum = a + b;

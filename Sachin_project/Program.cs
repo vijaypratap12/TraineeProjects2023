@@ -149,6 +149,10 @@ namespace Sachin_project
             Console.WriteLine("Get E-mail from properties : " + obj18.Email);
             Console.WriteLine("Get Salary from properties : " + obj18.Salary);
 
+            //use List in properties
+            IList<Properties1> list1= new List<Properties1>();
+            
+
 
         }
 
