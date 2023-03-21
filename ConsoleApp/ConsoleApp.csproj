@@ -44,8 +44,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AbstractExample.cs" />
+    <Compile Include="Boxing.cs" />
     <Compile Include="ControlStatements.cs" />
+    <Compile Include="DelegateExample.cs" />
     <Compile Include="InheritanceExample.cs" />
+    <Compile Include="InterfaceExample.cs" />
+    <Compile Include="NewDelegateExample.cs" />
     <Compile Include="PolymorphismExample.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
