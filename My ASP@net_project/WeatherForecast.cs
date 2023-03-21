@@ -10,4 +10,3 @@ namespace My_ASP_net_project
 
         public string? Summary { get; set; }
     }
-}

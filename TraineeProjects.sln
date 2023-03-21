@@ -11,7 +11,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "ConsoleApp\Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sachin_project", "Sachin_project\Sachin_project.csproj", "{46E61ACC-C3B7-48F9-A71D-C931B2DBDE92}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "My ASP@net_project", "My ASP@net_project\My ASP@net_project.csproj", "{B487062A-DC59-41A0-AE92-8B9BD37B0EA8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "My ASP@net_project", "My ASP@net_project\My ASP@net_project.csproj", "{B487062A-DC59-41A0-AE92-8B9BD37B0EA8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sachin Mishra Projects", "Sachin Mishra Projects", "{7CB6A13F-7BCA-4B61-9AAB-2FF03C15B67C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -42,6 +44,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{46E61ACC-C3B7-48F9-A71D-C931B2DBDE92} = {7CB6A13F-7BCA-4B61-9AAB-2FF03C15B67C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {43405303-762C-40A7-97EC-D81AD0013817}
