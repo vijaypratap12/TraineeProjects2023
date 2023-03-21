@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{46E61ACC-C3B7-48F9-A71D-C931B2DBDE92}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Sachin_project</RootNamespace>
+    <AssemblyName>Sachin_project</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Programs_for_practices\Armstrome.cs" />
+    <Compile Include="Programs_for_practices\ConcatinationString.cs" />
+    <Compile Include="Programs_for_practices\CountVowel.cs" />
+    <Compile Include="Programs_for_practices\Factorial.cs" />
+    <Compile Include="Programs_for_practices\greaterNumber.cs" />
+    <Compile Include="Programs_for_practices\Palindrome.cs" />
+    <Compile Include="Programs_for_practices\Pattern1.cs" />
+    <Compile Include="Programs_for_practices\Pattern2.cs" />
+    <Compile Include="Programs_for_practices\prime_number.cs" />
+    <Compile Include="Programs_for_practices\program1_Fibonacci.cs" />
+    <Compile Include="Programs_for_practices\ReverseArray.cs" />
+    <Compile Include="Programs_for_practices\ReverseString.cs" />
+    <Compile Include="Programs_for_practices\sumofdigits.cs" />
+    <Compile Include="Programs_for_practices\Sumofdigitsinarray.cs" />
+    <Compile Include="Programs_for_practices\Uppercase.cs" />
+    <Compile Include="Properties1.cs" />
+    <Compile Include="Properties2.cs" />
+    <Compile Include="Properties3.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
