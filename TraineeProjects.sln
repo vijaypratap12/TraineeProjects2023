@@ -5,9 +5,11 @@ VisualStudioVersion = 17.5.33414.496
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImageGenerator", "ImageGenerator\ImageGenerator.csproj", "{E206BCE5-3E8D-4535-8F96-807C4EDBE12A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntroductionCSharp", "IntroductionCSharp\IntroductionCSharp.csproj", "{9247B9A8-876A-4194-9478-62CCEA8AB0DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntroductionCSharp", "IntroductionCSharp\IntroductionCSharp.csproj", "{9247B9A8-876A-4194-9478-62CCEA8AB0DA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{62106B17-0DA7-4433-A124-BC926706B310}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sachin_project", "Sachin_project\Sachin_project.csproj", "{46E61ACC-C3B7-48F9-A71D-C931B2DBDE92}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{62106B17-0DA7-4433-A124-BC926706B310}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{62106B17-0DA7-4433-A124-BC926706B310}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{62106B17-0DA7-4433-A124-BC926706B310}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46E61ACC-C3B7-48F9-A71D-C931B2DBDE92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46E61ACC-C3B7-48F9-A71D-C931B2DBDE92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46E61ACC-C3B7-48F9-A71D-C931B2DBDE92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46E61ACC-C3B7-48F9-A71D-C931B2DBDE92}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
