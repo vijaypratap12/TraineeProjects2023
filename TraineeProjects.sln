@@ -11,6 +11,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "ConsoleApp\Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sachin_project", "Sachin_project\Sachin_project.csproj", "{46E61ACC-C3B7-48F9-A71D-C931B2DBDE92}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{B896965E-A5A4-4663-BD55-BAE42670ADF4}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\source\repos\c#project\Madhu_MCN_Trainee\DelegateArmstrong.cs = ..\..\..\source\repos\c#project\Madhu_MCN_Trainee\DelegateArmstrong.cs
+		..\..\..\source\repos\c#project\Madhu_MCN_Trainee\DelegateFactorial.cs = ..\..\..\source\repos\c#project\Madhu_MCN_Trainee\DelegateFactorial.cs
+		..\..\..\source\repos\c#project\Madhu_MCN_Trainee\DelegatePalindrome.cs = ..\..\..\source\repos\c#project\Madhu_MCN_Trainee\DelegatePalindrome.cs
+		..\..\..\source\repos\c#project\Madhu_MCN_Trainee\Delegate_primeNum.cs = ..\..\..\source\repos\c#project\Madhu_MCN_Trainee\Delegate_primeNum.cs
+		..\..\..\source\repos\c#project\Madhu_MCN_Trainee\Deligate_fibonacci.cs = ..\..\..\source\repos\c#project\Madhu_MCN_Trainee\Deligate_fibonacci.cs
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
